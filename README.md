@@ -606,6 +606,12 @@ cd ./05-monitoring
 terraform destroy -auto-approve
 
 # Stack 04 - Security (WAF)
+# IMPORTANTE: Deletar Ingress antes de destruir WAF (remove associação ALB-WAF)
+kubectl delete ingress eks-devopsproject-ingress -n sample-app
+
+# Aguardar ALB ser removido (~30 segundos)
+sleep 30
+
 cd ../04-security
 terraform destroy -auto-approve
 
