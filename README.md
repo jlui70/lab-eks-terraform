@@ -1321,7 +1321,7 @@ kubectl delete pod <pod-name> -n <namespace>
 
 ## 🙏 Créditos
 
-Este projeto é inspirado no trabalho original de **[Kenerry Serain](https://github.com/kenerry-serain)**, desenvolvido como material do curso **DevOps na Nuvem**.
+Este projeto é baseado no trabalho original de **[Kenerry Serain](https://github.com/kenerry-serain)**, desenvolvido como material do curso **DevOps na Nuvem**.
 
 Agradecimentos especiais pela estrutura e conhecimento compartilhado que tornou este projeto possível.
 
